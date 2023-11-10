@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #F9E0AE; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    padding: 20px;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo p{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16pt;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.main-menu{
+    padding: 20px;
+}
+
+.main-menu ul{
+    display: flex;
+}
+
+.main-menu li{
+    list-style-type: none;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    display: block;
+    padding: 3px 10px;
+}
+
+.main-menu li a:hover{
+    background-color: #C24914;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.main-menu li:nth-child(3) , .main-menu li:nth-child(4){
+    display: flex;
+}
+
+.main-menu li:nth-child(3) a , .main-menu li:nth-child(4) a{
+    padding-right: 3px;
+}
+
+.main-menu li img{
+    width: 20px;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.main{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.info-block{
+    display: flex;
+    margin-top: 235px;
+    justify-content: space-between;
+}
+
+.info-block__content h1, .info-block-last__h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 76px;
+}
+
+.info-block__content p{
+    color: rgba(0, 0, 0, 0.46);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 34px;
+}
+
+.info-block__content button{
+    width: 200px;
+    height: 44px;
+    border-radius: 10px;
+    background: #682C0E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 34px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-block__content ul{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+form{
+    margin: 100px 0 206px 0;
+    background-color: #F9E0AE;
+    width: 100%;
+    height: 140px;
+}
+
+form input{
+    width: 300px;
+    height: 63px;
+    margin: 38px 0;
+    margin-left: 45px;
+    text-align: center;
+}
+
+form input:nth-child(3){
+    background-color: #C24914;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+/*последний блок*/
+.info-block-last{
+    position: relative;
+    height: 780px;
+    margin-bottom: 100px;
+}
+
+.info-block-last__content{
+    width: 550px;
+    z-index: 1;
+}
+
+.info-block-last__content h1{
+    text-align: center;
+    padding-top: 63px;
+}
+
+.info-block-last__content p{
+    text-align: center;
+}
+
+.info-block-last__content button{
+    width: 273px;
+    height: 54px;
+    border-radius: 10px;
+    background: #FC8621;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 63px 138px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.img{
+    position: absolute;
+}
+
+.lagre_img{
+    bottom: 0;
+    right: 0;
+}
+
+.small_img_1{
+    bottom: 151px;
+    left: 317px;
+}
+.small_img_2{
+    top: 0;
+    right: 426px;
+}
+.small_img_3{
+    left: 40px;
+    top: 401px;
+}
+.small_img_4{
+    top: 165px;
+    right: 104px;
+}
+
+
+/*подвал*/
+footer{
+    height: 442px;
+    background-color: #F9E0AE;
+    position: relative;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 107px;
+}
+
+.mini-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.uls li{
+    color: #6C6C6C;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px 0 0 2px;
+}
+
+.uls-without-dot li{
+    list-style-type: none;
+}
+
+.bottom-text{
+    position: absolute;
+    display: inline-flex;
+    bottom: 10px;
+    text-align: center;
+    left: calc(50% - 100px);
+}
